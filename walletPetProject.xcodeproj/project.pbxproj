@@ -14,6 +14,7 @@
 		229ABA84265D4A25003C83E6 /* walletPetProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 229ABA82265D4A25003C83E6 /* walletPetProject.xcdatamodeld */; };
 		229ABA86265D4A29003C83E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229ABA85265D4A29003C83E6 /* Assets.xcassets */; };
 		229ABA89265D4A29003C83E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229ABA87265D4A29003C83E6 /* LaunchScreen.storyboard */; };
+		22A371D12678FF0D008EFE57 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22A371D02678FF0D008EFE57 /* .gitignore */; };
 		22CB5DEA267136A1009A668D /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB5DE8267136A1009A668D /* HistoryTableViewCell.swift */; };
 		22CB5DEB267136A1009A668D /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CB5DE9267136A1009A668D /* HistoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		229ABA85265D4A29003C83E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229ABA88265D4A29003C83E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		229ABA8A265D4A29003C83E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A371D02678FF0D008EFE57 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		22CB5DE8267136A1009A668D /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		22CB5DE9267136A1009A668D /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +48,7 @@
 		229ABA6D265D4A25003C83E6 = {
 			isa = PBXGroup;
 			children = (
+				22A371D02678FF0D008EFE57 /* .gitignore */,
 				229ABA78265D4A25003C83E6 /* walletPetProject */,
 				229ABA77265D4A25003C83E6 /* Products */,
 			);
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A371D12678FF0D008EFE57 /* .gitignore in Resources */,
 				229ABA89265D4A29003C83E6 /* LaunchScreen.storyboard in Resources */,
 				229ABA86265D4A29003C83E6 /* Assets.xcassets in Resources */,
 				22CB5DEB267136A1009A668D /* HistoryTableViewCell.xib in Resources */,
