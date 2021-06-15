@@ -14,6 +14,8 @@
 		229ABA84265D4A25003C83E6 /* walletPetProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 229ABA82265D4A25003C83E6 /* walletPetProject.xcdatamodeld */; };
 		229ABA86265D4A29003C83E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229ABA85265D4A29003C83E6 /* Assets.xcassets */; };
 		229ABA89265D4A29003C83E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229ABA87265D4A29003C83E6 /* LaunchScreen.storyboard */; };
+		22CB5DEA267136A1009A668D /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB5DE8267136A1009A668D /* HistoryTableViewCell.swift */; };
+		22CB5DEB267136A1009A668D /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CB5DE9267136A1009A668D /* HistoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		229ABA85265D4A29003C83E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229ABA88265D4A29003C83E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		229ABA8A265D4A29003C83E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CB5DE8267136A1009A668D /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		22CB5DE9267136A1009A668D /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				229ABA87265D4A29003C83E6 /* LaunchScreen.storyboard */,
 				229ABA8A265D4A29003C83E6 /* Info.plist */,
 				229ABA82265D4A25003C83E6 /* walletPetProject.xcdatamodeld */,
+				22CB5DE8267136A1009A668D /* HistoryTableViewCell.swift */,
+				22CB5DE9267136A1009A668D /* HistoryTableViewCell.xib */,
 			);
 			path = walletPetProject;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			files = (
 				229ABA89265D4A29003C83E6 /* LaunchScreen.storyboard in Resources */,
 				229ABA86265D4A29003C83E6 /* Assets.xcassets in Resources */,
+				22CB5DEB267136A1009A668D /* HistoryTableViewCell.xib in Resources */,
 				229ABA81265D4A25003C83E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 				229ABA7A265D4A25003C83E6 /* AppDelegate.swift in Sources */,
 				229ABA84265D4A25003C83E6 /* walletPetProject.xcdatamodeld in Sources */,
 				229ABA7C265D4A25003C83E6 /* SceneDelegate.swift in Sources */,
+				22CB5DEA267136A1009A668D /* HistoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ravil-Sharafutdinov.walletPetProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ravil-Sharafutdinov.walletPetProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
